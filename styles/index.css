@@ -35,6 +35,16 @@ h3 {
   color: #424242;
 }
 
+p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  color: #424242;
+}
+
 .landing-section {
   display: flex;
   justify-content: flex-start;
@@ -60,15 +70,6 @@ h3 {
   justify-content: center;
   align-items: flex-start;
   height: 60%;
-}
-
-#landing-subtitle {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 0;
 }
 
 .landing-section-content--sub-title {
