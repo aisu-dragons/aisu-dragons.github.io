@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins";
+  background: #f9f9f9;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 50px;
+  margin: 0;
+  color: #424242;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 20px;
+  margin: 0;
+  color: #424242;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+}
+
+.nav-button-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 3%;
+  margin: 0% 4%;
+}
+
+.nav-button-home-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.nav-bar {
+  margin: 2% 4%;
+  /* padding: 1em; */
+  display: flex;
+  /* width: 60%; */
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-bar li {
+  position: relative;
+  list-style: none;
+  border-radius: 1em;
+}
+
+.nav-bar li::before,
+.nav-bar li::after {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #57b8e8;
+  transition: all 0.25s cubic-bezier(0.4, -1, 0.2, -1);
+}
+
+.nav-bar li:before {
+  top: 0;
+  border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+}
+
+.nav-bar li::after {
+  bottom: 0;
+  border-bottom-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+.nav-bar li:hover::before,
+.nav-bar li:hover::after {
+  width: 35%;
+  height: 2.5px;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  text-transform: lowercase;
+  display: block;
+  padding: 0em 1em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 30px;
+  color: #121212;
+}
+
+.nav-bar li.active {
+  border-color: #370e4d;
+}
+
+.nav-bar li.active::before,
+.nav-bar li.active::after {
+  width: 100%;
+  height: 50%;
+}
+
+.landing-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 5% 0%;
+}
+
+.landing-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  width: 45%;
+  height: 80%;
+  margin-left: 5%;
+}
+
+.landing-section-content--main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 60%;
+}
+
+#landing-subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.landing-section-content--sub-title {
+  height: 30%;
+  margin-top: 2%;
+}
+
+#landing-previous-subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+  color: #828282;
+}
+
+.landing-section-visual {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 45%;
+  height: 80%;
+  margin-right: 5%;
+}
+
+#landing-image {
+  width: 80%;
+  height: 100%;
+}
+
+.featured-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#featured-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 0;
+  color: #424242;
+}
+
+.featured-project {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 5% 0%;
+}
+
+.featured-project-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 35%;
+  height: 80%;
+  margin-left: 5%;
+}
+
+.featured-project-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 20px;
+  margin: 0;
+  text-decoration: underline;
+  color: #828282;
+}
+
+.featured-project-visual {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 55%;
+  height: 80%;
+  margin-right: 5%;
+}
+
+.featured-project-image {
+  width: 80%;
+  height: 100%;
+}
