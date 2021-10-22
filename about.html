@@ -10,9 +10,11 @@
 </head>
 
 <body>
+    <!-- navigation bar -->
     <nav id="navigation-bar">
         <div class="nav-bar-container">
-            <a class="nav-button-home" href="/index.html">
+            <a class="nav-button-home" href="#">
+                <!-- svg for home button in navigation bar (snowflake) -->
                 <svg class="nav-button-home-icon" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16.0495 49.2258L4.66406 48.4988L9.78979 38.384L15.7389 39.9779L28.691 32.5L15.7389 25.0221L9.78979 26.616L4.66406 16.5012L16.0495 15.7742L17.6434 21.7232L30.5958 29.2012V14.2455L26.2404 9.89016L32.5001 0L38.7597 9.89016L34.4044 14.2455V29.2012L47.3567 21.7232L48.9506 15.7742L60.3361 16.5012L55.2103 26.616L49.2612 25.0221L36.3092 32.5L49.2612 39.9779L55.2103 38.384L60.3361 48.4988L48.9506 49.2258L47.3567 43.2768L34.4044 35.7987V50.7545L38.7597 55.1098L32.5001 65L26.2404 55.1098L30.5958 50.7545V35.7987L17.6434 43.2768L16.0495 49.2258Z" fill="#57B8E8"/>
                     <path d="M38.2129 42.3957L43.5183 45.4589L46.5795 56.8895L38.2129 48.5229V42.3957Z" fill="#57B8E8"/>
@@ -23,7 +25,9 @@
                     <path d="M21.0735 32.4999L15.7654 35.5645L4.19531 32.4999L15.7654 29.4354L21.0735 32.4999Z" fill="#57B8E8"/>
                 </svg>
             </a>
+            <!-- navigation pages in navigation bar, needs to be the same in every html file-->
             <ul class="nav-bar">
+                <!-- navigation elements -->
                 <li class="nav-button-about">
                     <a href="about.html">about</a>
                 </li>
@@ -39,11 +43,15 @@
             </ul>
         </div>
     </nav>
+    <!-- about section is split into image then text -->
     <div class="about-section">
+        <!-- about image -->
         <div class="about-section-visual">
             <img id="about-image" src="assets/about-image.png" alt="Jessica Profile Photo" />
         </div>
+        <!-- about content -->
         <div class="about-section-content">
+            <!-- main bio -->
             <div class="about-section-content--main">
                 <h1 id="about-title">hey there! 😊💖</h1>
                 <p id="about-content">
@@ -69,6 +77,7 @@
                     games, and capturing pictures of the sky. 
                 </p>
             </div>
+            <!-- fun facts section -->
             <div class="about-section-content--fun-facts">
                 <h2 id="about-fun-facts">fun facts —</h2>
                 <p id="fun-facts-content">
@@ -84,6 +93,7 @@
                     📸 taking way too many pictures of the sky 
                 </p>
             </div>
+            <!-- lets chat section -->
             <div class="about-section-content--lets-chat">
                 <h2 id="about-lets-chat">let's chat —</h2>
                 <p id="lets-chat-content">
