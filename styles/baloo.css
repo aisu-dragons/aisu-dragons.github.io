@@ -70,8 +70,7 @@ p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 30%;
-  background-color: bisque;
+  height: 40%;
 }
 
 .baloo-content-container {
@@ -80,6 +79,7 @@ p {
   justify-content: flex-start;
   align-items: flex-start;
   width: 90%;
+  margin-top: 3%;
 }
 
 .baloo-content-menu {
