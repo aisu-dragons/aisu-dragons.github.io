@@ -73,6 +73,11 @@ p {
   height: 40%;
 }
 
+.baloo-banner-image {
+  height: auto;
+  width: 100%;
+}
+
 .baloo-content-container {
   display: flex;
   flex-direction: row;
