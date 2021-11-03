@@ -138,6 +138,7 @@ p {
   justify-content: flex-start;
   align-items: flex-start;
   width: 80%;
+  padding-left: 2%;
 }
 
 .baloo-content-title {
