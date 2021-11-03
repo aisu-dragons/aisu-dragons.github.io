@@ -167,7 +167,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 2% 0%;
+  margin: 2% 0% 4% 0%;
   width: 100%;
 }
 
@@ -181,7 +181,7 @@ p {
 .baloo-content-description-visual {
   width: 100%;
   height: auto;
-  margin: 1% 0%;
+  margin: 2% 0%;
 }
 
 .baloo-content-description-table-element-withicon {
@@ -244,6 +244,7 @@ p {
 
 .baloo-content-description-table-element-imagewcaption-visual {
   width: 100%;
+  height: auto;
   margin: 1% 0%;
 }
 
@@ -261,6 +262,7 @@ p {
   font-weight: normal;
   text-decoration: none;
   text-align: center;
+  margin: 2% 0%;
 }
 
 .baloo-content-description-image-caption {
@@ -272,4 +274,9 @@ p {
   margin: 0;
   color: #BDBDBD;
   text-align: center;
+  width: 100%;
+}
+
+.baloo-content-description-image-caption.hifi{
+  margin: 3% 0%;
 }
