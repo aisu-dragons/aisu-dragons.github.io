@@ -108,6 +108,7 @@ p {
   font-family: "Poppins";
   font-size: 12px;
   text-transform: lowercase;
+  text-decoration: none;
   letter-spacing: 2.5px;
   font-weight: 500;
   color: #424242;
@@ -126,4 +127,14 @@ p {
   box-shadow: 0px 15px 15px #1279b4cb;
   color: #fff;
   transform: translateY(-7px);
+}
+
+.projects-button-text {
+  text-decoration: none;
+  color: #424242;
+}
+
+.projects-button-text:hover {
+  text-decoration: none;
+  color: #fff;
 }
