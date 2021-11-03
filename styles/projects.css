@@ -124,17 +124,8 @@ p {
 
 .projects-button:hover {
   background-color: #6fddff;
-  box-shadow: 0px 15px 15px #1279b4cb;
+  box-shadow: 0px 15px 15px #1279b4ad;
+  text-decoration: none;
   color: #fff;
   transform: translateY(-7px);
-}
-
-.projects-button-text {
-  text-decoration: none;
-  color: #424242;
-}
-
-.projects-button-text:hover {
-  text-decoration: none;
-  color: #fff;
 }
