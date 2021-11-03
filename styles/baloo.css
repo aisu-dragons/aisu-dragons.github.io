@@ -83,14 +83,14 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 90%;
+  width: 100%;
   margin-top: 3%;
 }
 
 .baloo-content-menu {
   position: -webkit-sticky;
   position: sticky;
-  top: 10%;
+  top: 5%;
   width: 20%;
 }
 
@@ -141,9 +141,77 @@ p {
 }
 
 .baloo-content-title {
-  margin-bottom: 1%;
+  margin-bottom: 2.5%;
 }
 
 .baloo-content-description-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin: 2.5% 0%;
+}
+
+.baloo-content-description-subtitle {
+  margin-top: 1%;
+}
+
+.baloo-content-description-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin: 1% 0%;
+}
+
+.baloo-content-description-table-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.baloo-content-description-visual {
+  width: auto;
+  height: auto;
+}
+
+.baloo-content-description-table-element-withicon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.baloo-content-description-table-element-withicon-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.baloo-content-description-table-element-withicon-icon {
+  width: 2em;
+  height: 2em;
+}
+
+.baloo-content-description-table-element-withicon-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 5px 0px;
+  color: #57B8E8;
+}
+
+.baloo-content-description-table-element-withicon-description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: #424242;
 }
