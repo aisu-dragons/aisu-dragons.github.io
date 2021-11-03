@@ -166,7 +166,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 2% 0% 1% 0%;
+  margin: 2% 0%;
   width: 100%;
 }
 
@@ -228,12 +228,13 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  width: 48%;
 }
 
 .baloo-content-description-table-element-imagewcaption-title {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 18px;
   line-height: 28px;
   margin: 0;
@@ -242,6 +243,7 @@ p {
 
 .baloo-content-description-table-element-imagewcaption-visual {
   width: 100%;
+  margin: 1% 0%;
 }
 
 .baloo-content-description-table-element-imagewcaption-caption {
@@ -251,5 +253,22 @@ p {
   font-size: 14px;
   line-height: 20px;
   margin: 0;
-  color: #424242;
+  color: #BDBDBD;
+}
+
+#baloo-statement {
+  font-weight: normal;
+  text-decoration: none;
+  text-align: center;
+}
+
+.baloo-content-description-image-caption {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  color: #BDBDBD;
+  text-align: center;
 }
