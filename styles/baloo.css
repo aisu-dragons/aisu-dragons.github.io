@@ -31,7 +31,7 @@ h3 {
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
+  margin: 1% 0%;
   color: #424242;
 }
 
@@ -104,6 +104,10 @@ ul {
 
 .baloo-content-navigation {
   margin-top: 10%;
+}
+
+#baloo-content-navigation-title-container {
+  margin: 5% 0%;
 }
 
 #baloo-content-navigation-title {
