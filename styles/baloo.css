@@ -55,6 +55,14 @@ p {
   color: #424242;
 }
 
+ol {
+  margin-top: 0;
+}
+
+ul {
+  margin-top: 0;
+}
+
 .baloo-section {
   display: flex;
   flex-direction: column;
