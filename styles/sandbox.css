@@ -114,7 +114,7 @@ p {
   background-color: #fff;
   border: none;
   border-radius: 35px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
@@ -122,8 +122,10 @@ p {
 }
 
 .sandbox-button:hover {
-  background-color: #6fddff;
-  box-shadow: 0px 15px 15px #1279b4cb;
+  background-color: #57B8E8;
+  box-shadow: 0px 15px 20px rgba(87, 184, 232, 0.9);
+  font-weight: bold;
+  text-decoration: none;
   color: #fff;
   transform: translateY(-7px);
 }
