@@ -28,6 +28,11 @@
     height: 15;
 }
 
+.footer-section--social-media-icons:hover {
+    /* fill: #57B8E8; */
+    filter: brightness(0) saturate(100%) invert(74%) sepia(12%) saturate(3743%) hue-rotate(170deg) brightness(96%) contrast(89%);
+}
+
 .footer-section--message {
     font-family: "Poppins";
     font-style: normal;
