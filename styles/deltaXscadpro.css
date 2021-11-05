@@ -229,6 +229,20 @@ ul {
   margin: 2% 0%;
 }
 
+.deltaXscadpro-content-description-link,
+.deltaXscadpro-content-description-link:visited {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  color: #57B8E8;
+  text-align: left;
+  text-decoration-line: underline;
+  width: 100%;
+}
+
 .deltaXscadpro-content-description-caption {
   font-family: "Poppins";
   font-style: normal;
