@@ -48,7 +48,7 @@
     <div class="boddle-section">
         <!-- banner -->
         <div class="boddle-banner-container">
-            <img class="boddle-banner-image" src="assets/boddle/boddle_learning_banner.png" alt="Boddle Learning Banner" />
+            <img class="boddle-banner-image" src="assets/boddle-ui-redesign/boddle_banner.png" alt="Boddle Learning Banner" />
         </div>
         <!-- content of page -->
         <div class="boddle-content-container">
@@ -64,7 +64,31 @@
                             <a href="#project-overview">project overview</a>
                         </li>
                         <li class="boddle-content-navigation-list-item">
+                            <a href="#objective">objective</a>
+                        </li>
+                        <li class="boddle-content-navigation-list-item">
+                            <a href="#problem">problem</a>
+                        </li>
+                        <li class="boddle-content-navigation-list-item">
+                            <a href="#usability-results">usability results</a>
+                        </li>
+                        <li class="boddle-content-navigation-list-item">
+                            <a href="#lofi-wireframes">lofi wireframes</a>
+                        </li>
+                        <li class="boddle-content-navigation-list-item">
+                            <a href="#midfi-wireframes">midfi wireframes</a>
+                        </li>
+                        <li class="boddle-content-navigation-list-item">
+                            <a href="#hifi-wireframes">hifi wireframes</a>
+                        </li>
+                        <li class="boddle-content-navigation-list-item">
                             <a href="#design-system">design system</a>
+                        </li>
+                        <li class="boddle-content-navigation-list-item">
+                            <a href="#interactive-prototype">interactive prototype</a>
+                        </li>
+                        <li class="boddle-content-navigation-list-item">
+                            <a href="#next-steps">next steps</a>
                         </li>
                         <li class="boddle-content-navigation-list-item">
                             <a href="#takeaways">takeaways</a>
@@ -76,7 +100,27 @@
                 <span class="material-icons expand_less">expand_less</span>  
             </a>
             <div class="boddle-content">
-                <h1 id="boddle-content-title">boddle learning internship</h1>
+                <h1 id="boddle-content-title">boddle learning internship: ui redesign</h1>
+                <!-- table for description of role, time, skills, tools -->
+                <div class="boddle-content-description-table">
+                    <div class="boddle-content-description-table-element">
+                        <h3>role —</h3>
+                        <p>user experience (ux) <br/>design intern</p>
+                    </div>
+                    <div class="boddle-content-description-table-element">
+                        <h3>timeline —</h3>
+                        <p>june - august 2021</p>
+                    </div>
+                    <div class="boddle-content-description-table-element">
+                        <h3>skills —</h3>
+                        <p>ux design</p>
+                    </div>
+                    <div class="boddle-content-description-table-element">
+                        <h3>tools —</h3>
+                        <p>figma</p>
+                        <p>notion</p>
+                    </div>
+                </div>
                 <!-- content description section for each menu navigation link -->
                 <!-- copy a div class "boddle-content-description-section" and create the linkage -->
                 <!-- in the "boddle-content-navigation" class to create a new content section for the page -->
@@ -92,27 +136,99 @@
                             classroom-level and student-level information at a glance? 
                         </b>
                     </p>
-                    <!-- table for description of role, time, skills, tools -->
-                    <div class="boddle-content-description-table">
-                        <div class="boddle-content-description-table-element">
-                            <h3>role —</h3>
-                            <p>user experience (ux) intern</p>
-                        </div>
-                        <div class="boddle-content-description-table-element">
-                            <h3>timeline —</h3>
-                            <p>june - august 2021</p>
-                        </div>
-                        <div class="boddle-content-description-table-element">
-                            <h3>skills —</h3>
-                            <p>visual design</p>
-                            <p>design system</p>
-                        </div>
-                        <div class="boddle-content-description-table-element">
-                            <h3>tools —</h3>
-                            <p>figma</p>
-                            <p>notion</p>
-                        </div>
-                    </div>
+                </div>
+                <!-- new page section that is included in the page menu -->
+                <div class="boddle-content-description-section" id="objective">
+                    <h2 class="boddle-content-description-subtitle">objective —</h2>
+                    <p class="boddle-content-description-content">
+                        My goal of the project was to 
+                        <b>
+                            improve the teacher’s experience while navigating Boddle Learning’s teacher dashboard
+                        </b> 
+                        to enable them to gain insights on their students. 
+                        <br/>
+                        Three main goals: 
+                        <ol>
+                            <li>
+                                Redefine and build a new visual language for the dashboard
+                            </li>
+                            <li>
+                                Create a landing page that has information more at a glance 
+                            </li>
+                            <li>
+                                Reorganize the information architecture
+                            </li>
+                        </ol>
+                    </p>
+                </div>
+                <!-- new page section that is included in the page menu -->
+                <div class="boddle-content-description-section" id="problem">
+                    <h2 class="boddle-content-description-subtitle">problem —</h2>
+                    <p class="boddle-content-description-content">
+                        When teachers are trying to view insights of their class and how their students are doing, 
+                        the teachers have to click through many screens to get to insights. They value being able 
+                        to see information at a glance and being able to see the information quickly. 
+                    </p>
+                </div>
+                <!-- new page section that is included in the page menu -->
+                <div class="boddle-content-description-section" id="usability-results">
+                    <h2 class="boddle-content-description-subtitle">usability results —</h2>
+                    <p class="boddle-content-description-content">
+                        I was given information from our useability testing… 
+                        <ul>
+                            <li>
+                                <b>
+                                    Teachers were able to find the information 
+                                </b>
+                                (ex. Progress reports, usage reports, etc.), however, 
+                                <b>
+                                    they need to find all the information
+                                </b> 
+                                once they open Boddle Learning
+                            </li>
+                            <li>
+                                Usage report 
+                                <b>
+                                    need adjustments to the information being presented 
+                                </b>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                <!-- new page section that is included in the page menu -->
+                <div class="boddle-content-description-section" id="lofi-wireframes">
+                    <h2 class="boddle-content-description-subtitle">lofi wireframes —</h2>
+                    <img class="boddle-content-description-visual" src="assets/boddle-ui-redesign/boddle_lofi.png" alt="Boddle Low-Fidelity Wireframe Sketch" />
+                    <p class="boddle-content-description-content">
+                        I started off by understand and sketching out the current dashboard. I wrote the descriptions 
+                        that were needed such as the assignment progress. 
+                    </p>
+                    <img class="boddle-content-description-visual" src="assets/boddle-ui-redesign/boddle_lofi1.png" alt="Boddle Low-Fidelity Wireframe" />
+                    <p class="boddle-content-description-content">
+                        The main page I’ll be focusing on is the classroom page as it laid the foundation for the rest 
+                        of the pages I created during this internship. 
+                    </p>
+                </div>
+                <!-- new page section that is included in the page menu -->
+                <div class="boddle-content-description-section" id="midfi-wireframes">
+                    <h2 class="boddle-content-description-subtitle">midfi wireframes —</h2>
+                    <img class="boddle-content-description-visual" src="assets/boddle-ui-redesign/boddle_midfi.png" alt="Boddle Mid-Fidelity Wireframe" />
+                    <p class="boddle-content-description-content">
+                        When teachers clicked into the classroom, we wanted them to see their student’s name, username, 
+                        if the parents have connected their email to their kid’s account, grade level, and quick access 
+                        to actions. 
+                    </p>
+                </div>
+                <!-- new page section that is included in the page menu -->
+                <div class="boddle-content-description-section" id="hifi-wireframes">
+                    <h2 class="boddle-content-description-subtitle">hifi wireframes —</h2>
+                    <img class="boddle-content-description-visual" src="assets/boddle-ui-redesign/boddle_highfi.png" alt="Boddle High-Fidelity Wireframe" />
+                    <p class="boddle-content-description-content">
+                        From midfi to highfi, we adjusted the CTA to be adding the students and remind parents to link 
+                        their emails to their kid’s accounts. In addition to adjusting the navigation bar and button 
+                        placements. 
+                    </p>
+                    <img class="boddle-content-description-visual" src="assets/boddle-ui-redesign/boddle_highfi1.png" alt="Boddle High-Fidelity Wireframe" />
                 </div>
                 <!-- new page section that is included in the page menu -->
                 <div class="boddle-content-description-section" id="design-system">
@@ -122,27 +238,67 @@
                         and to create more of coherent designs. 
                     </p>
                     <a class="boddle-content-description-link" href="#">
-                        boddle learning: design system case study →
+                        Boddle Learning: Design System Case Study →
                     </a>
+                </div>
+                <!-- new page section that is included in the page menu -->
+                <div class="boddle-content-description-section" id="interactive-prototype">
+                    <h2 class="boddle-content-description-subtitle">interactive prototype —</h2>
+                    <p class="boddle-content-description-content">
+                        Check through the interactive prototype from Figma. 
+                    </p>
+                    <div class="boddle-button-wrap">
+                        <a class="boddle-button-text" href="https://www.figma.com/proto/Daq7F1JspoAbQ2JUU5FiSK/Boddle-Learning---Prototype?page-id=0%3A1&node-id=2%3A3061&viewport=241%2C48%2C0.05&scaling=min-zoom&starting-point-node-id=2%3A3061">
+                            <button class="boddle-button">
+                                view prototype 🠒
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- new page section that is included in the page menu -->
+                <div class="boddle-content-description-section" id="next-steps">
+                    <h2 class="boddle-content-description-subtitle">next steps —</h2>
+                    <p class="boddle-content-description-content">
+                        <b>
+                            This work is still a work in progress.
+                        </b> 
+                        There’s a lot of inconsistent elements (for example the buttons are all over the place), don’t 
+                        worry I know about them. If I had more time to work on this I would love to work out a design 
+                        system to keep a constant design language throughout the website redesign and other products 
+                        of Boddle Learning. 
+                    </p>
                 </div>
                 <!-- new page section that is included in the page menu -->
                 <div class="boddle-content-description-section" id="takeaways">
                     <h2 class="boddle-content-description-subtitle">takeaways —</h2>
                     <h3>
-                        title1
+                        Collaboration
                     </h3>
-                    <!-- bulletted list -->
-                    <ul>
-                        <li>
-                            <p>
-                                takeaway1
-                            </p>
-                        </li>
-                    </ul>
-                    <h6 class="boddle-content-description-caption">
-                        if you would like to hear more about this project, please reach out!
-                    </h6>
+                    <p class="boddle-content-description-content">
+                        This was the first time I worked with a design lead and engineer which allowed me to understand 
+                        different perspectives. 
+                    </p>
+                    <h3>
+                        Feedback
+                    </h3>
+                    <p class="boddle-content-description-content">
+                        Asking for feedback and questions on the design influences my design process. Since I was 
+                        focusing on this one project after many smaller tasks, I was able to learn more about the 
+                        Edtech/education industry. 
+                    </p>
+                    <h3>
+                        Learning
+                    </h3>
+                    <p class="boddle-content-description-content">
+                        I used this internship as a growing experience for myself. I enjoyed being able to create 
+                        and architected the first design system from the bottom up and learn how other companies 
+                        have their system set up. I’ve learned so much during this internship and about design and 
+                        working in the “real world.”
+                    </p>
                 </div>
+                <h6 class="boddle-content-description-caption">
+                    if you would like to hear more about this project, please reach out!
+                </h6>
             </div>
         </div>
     </div>

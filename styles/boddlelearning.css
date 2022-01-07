@@ -200,7 +200,7 @@ ul {
 }
 
 .boddle-content-description-subtitle {
-  margin: 2.5% 0%;
+  margin: 2% 0%;
 }
 
 .boddle-content-description-content {
@@ -213,7 +213,7 @@ ul {
   justify-content: space-between;
   align-items: flex-start;
   margin: 2% 0% 4% 0%;
-  width: 100%;
+  width: 90%;
 }
 
 .boddle-content-description-table-element {
@@ -253,4 +253,40 @@ ul {
   color: #bdbdbd;
   text-align: center;
   width: 100%;
+}
+
+.boddle-button-wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boddle-button {
+  width: 190px;
+  height: 40px;
+  font-family: "Poppins";
+  font-size: 12px;
+  text-transform: lowercase;
+  text-decoration: none;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #424242;
+  background-color: #fff;
+  border: none;
+  border-radius: 35px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 10% 0%;
+}
+
+.boddle-button:hover {
+  background-color: #57B8E8;
+  box-shadow: 0px 15px 20px rgba(87, 184, 232, 0.9);
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  transform: translateY(-7px);
 }
