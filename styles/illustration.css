@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins";
+  background: #f9f9f9;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 75px;
+  margin: 2px 0px;
+  color: #424242;
+}
+
+h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  margin: 0;
+  color: #424242;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  color: #424242;
+}
+
+h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  color: #424242;
+}
+
+p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  color: #424242;
+}
+
+.illustration-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+  height: 100%;
+  margin: 5%;
+}
+
+.illustration-section-list-grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.illustration-section-gallery-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
+  grid-gap: 2em;
+  padding: 2em;
+  pointer-events: none;
+}
+
+.illustration-image {
+  display: block;
+  width: 100%;
+  border-radius: 0.25em;
+  transition: 250ms 50ms;
+  pointer-events: auto;
+}
+
+.illustration-section-gallery-grid-container:hover .illustration-image:not(:hover) {
+  filter: saturate(0.2) opacity(0.5);
+}
+
+.illustration-section-grid-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: auto;
+  height: auto;
+}
+
+.illustration-section-grid-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: auto;
+  height: auto;
+}
