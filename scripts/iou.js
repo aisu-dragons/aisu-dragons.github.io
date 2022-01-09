@@ -17,7 +17,7 @@ previewImgRuleset.on('click', function () {
     });
     bigImg[0].fadeIn(100);
 
-    var previewIndex = $(this).index('.iou-gallery-slider-preview img');
+    var previewIndex = $(this).index('#final-ruleset-gallery .iou-gallery-slider-previews .iou-gallery-slider-preview img');
     currentIndex[0] = previewIndex;
 });
 
@@ -29,7 +29,7 @@ previewImgBoard.on('click', function () {
     });
     bigImg[1].fadeIn(100);
 
-    var previewIndex = $(this).index('.iou-gallery-slider-preview img');
+    var previewIndex = $(this).index('#board-prototype-gallery .iou-gallery-slider-previews .iou-gallery-slider-preview img');
     currentIndex[1] = previewIndex;
 });
 
