@@ -133,7 +133,7 @@ ul {
   font-size: 20px;
   line-height: 30px;
   margin: 0;
-  color: #4F4F4F;
+  color: #4f4f4f;
   text-decoration: none;
 }
 
@@ -150,7 +150,7 @@ ul {
 .iou-content-navigation-list-item a,
 .iou-content-navigation-list-item a:visited,
 .iou-content-navigation-list-item a:active {
-  color: #57B8E8;
+  color: #57b8e8;
   text-decoration: none;
 }
 
@@ -164,7 +164,7 @@ ul {
   position: fixed;
   bottom: 5%;
   right: 1.75%;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   border-radius: 50%;
   box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
   width: 2.5rem;
@@ -177,11 +177,11 @@ ul {
 }
 
 .expand_less {
-  color: #57B8E8;
+  color: #57b8e8;
 }
 
 .scroll-to-top:hover {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   width: 3rem;
   height: 3rem;
   bottom: 4.75%;
@@ -255,7 +255,7 @@ ul {
 
 .iou-content-description-table-withicon {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: center;
   margin: 2% 0% 4% 0%;
@@ -289,7 +289,7 @@ ul {
   font-size: 24px;
   line-height: 36px;
   margin: 5px 0px;
-  color: #57B8E8;
+  color: #57b8e8;
 }
 
 .iou-content-description-table-element-withicon-description {
@@ -331,7 +331,7 @@ ul {
   font-size: 14px;
   line-height: 20px;
   margin: 0;
-  color: #BDBDBD;
+  color: #bdbdbd;
 }
 
 #iou-statement {
@@ -348,7 +348,7 @@ ul {
   font-size: 14px;
   line-height: 20px;
   margin: 0;
-  color: #BDBDBD;
+  color: #bdbdbd;
   text-align: center;
   width: 100%;
 }
@@ -379,4 +379,53 @@ ul {
   width: 100%;
   height: 100%;
   margin: 2% 0%;
+}
+
+.iou-gallery-carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.iou-gallery-slider {
+  width: 90%;
+  margin: 30px auto 0;
+  position: relative;
+}
+
+.iou-gallery-slider-previews {
+  display: flex;
+  overflow: auto;
+  margin-left: -10px;
+  list-style: none;
+}
+
+.iou-gallery-slider-preview {
+  margin: 10px;
+  transition: all 300ms ease;
+}
+
+.iou-gallery-slider-preview:hover {
+  opacity: 0.5;
+}
+
+.arrow {
+  top: 150px;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+
+.arrow_left {
+  left: -40px;
+}
+
+.arrow_right {
+  right: -40px;
+}
+
+.iou-gallery-slider-preview-image {
+  height: 40%;
+  height: fit-content;
 }
