@@ -416,17 +416,29 @@ ul {
   top: 150px;
   transform: translateY(-50%);
   font-size: 30px;
+  color: #57B8E8;
+  cursor: pointer;
+  user-select: none;
+}
+
+.arrow:hover {
+  color: #424242;
+  cursor: pointer;
+  user-select: none;
 }
 
 .arrow_left {
   left: -40px;
+  cursor: pointer;
+  user-select: none;
 }
 
 .arrow_right {
   right: -40px;
+  cursor: pointer;
+  user-select: none;
 }
 
 .iou-gallery-slider-preview-image {
-  height: 40%;
-  height: fit-content;
+  width: 100%;
 }
