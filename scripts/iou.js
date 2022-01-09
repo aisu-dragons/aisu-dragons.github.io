@@ -36,7 +36,7 @@ previewImgBoard.on('click', function () {
 for(let i = 0; i < arrowLeft.length; i++)
 {
     arrowRight[i].addEventListener('click', function () {
-        if (currentIndex[i] == previewImg[0].length - 1) {
+        if (currentIndex[i] == previewImg[i].length - 1) {
             return;
         }
     
