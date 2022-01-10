@@ -111,7 +111,7 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 100%;
+  width: 90%;
   height: 100%;
   margin: 5%;
 }
@@ -121,7 +121,7 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 90%;
+  width: 100%;
   margin: 1.5% 0%;
 }
 
