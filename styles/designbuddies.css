@@ -232,8 +232,12 @@ ul {
   margin: 1% 0%;
 }
 
-.designbuddies-content-description-images-element {
-  width: auto;
+.designbuddies-content-description-images-element-fb {
+  width: 63%;
+}
+
+.designbuddies-content-description-images-element-ig {
+  width: 33%;
 }
 
 .designbuddies-content-description-visual {
