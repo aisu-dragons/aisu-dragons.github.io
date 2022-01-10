@@ -2,8 +2,9 @@
 <html>
 
 <head>
-    <title> Jess's Website </title>
+    <title> sandbox </title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type="text/css" href="/styles/navbar.css">
     <link rel="stylesheet" type="text/css" href="/styles/sandbox.css">
     <link rel="stylesheet" type="text/css" href="/styles/footer.css">
@@ -40,46 +41,160 @@
             </ul>
         </div>
     </nav>
+    <!-- sandbox project page -->
     <div class="sandbox-section">
-        <h1 id="sandbox-title">sandbox —</h1>
-        <div class="sandbox-section-list-grid-container">
-            <div class="sandbox-section-list-grid-row">
-                <div class="sandbox-section-item">
-                    <img class="sandbox-image" src="assets/sandbox-photography.png" alt="Photography" />
-                    <h2 class="sandbox-title">photography</h2>
-                    <div class="sandbox-button-wrap">
-                        <button class="sandbox-button">view work 🠒</button>
-                    </div>
-                </div>
-                <div class="sandbox-section-item">
-                    <img class="sandbox-image" src="assets/sandbox-illustration.png" alt="Illustration" />
-                    <h2 class="sandbox-title">illustration</h2>
-                    <div class="sandbox-button-wrap">
-                        <a class="sandbox-button-text" href="illustration.html">
-                            <button class="sandbox-button">
-                                view work 🠒
-                            </button>
-                        </a>
-                    </div>
-                </div>
+        <h1 class="sandbox-content-title">sandbox —</h1>
+        <p class="sandbox-content-description-content">
+            I love exploring other creative projects besides UX design projects. I also love... 
+        </p>
+        <!-- content of page -->
+        <div class="sandbox-content-container">
+            <div class="sandbox-content-menu">
+                <!-- page navigation -->
+                <nav class="sandbox-content-navigation">
+                    <h3 id="sandbox-content-navigation-title-container">
+                        <a id="sandbox-content-navigation-title" href="#sandbox-content-title">quick access</a>
+                    </h3>
+                    <!-- linkage of page sections are created as a <li> tag -->
+                    <ul class="sandbox-content-navigation-list">
+                        <li class="sandbox-content-navigation-list-item">
+                            <a href="#game-design">game design</a>
+                        </li>
+                        <li class="sandbox-content-navigation-list-item">
+                            <a href="#graphic-design">graphic design</a>
+                        </li>
+                        <li class="sandbox-content-navigation-list-item">
+                            <a href="#illustration">illustration</a>
+                        </li>
+                        <li class="sandbox-content-navigation-list-item">
+                            <a href="#photography">photography</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="sandbox-section-list-grid-row">
-                <div class="sandbox-section-item">
-                    <img class="sandbox-image" src="assets/sandbox-graphicdesign.png" alt="Graphic Design" />
-                    <h2 class="sandbox-title">graphic design</h2>
-                    <div class="sandbox-button-wrap">
-                        <a class="sandbox-button-text" href="graphicdesign.html">
-                            <button class="sandbox-button">
-                                view work 🠒
-                            </button>
-                        </a>
+            <a class="scroll-to-top" href="#">
+                <span class="material-icons expand_less">expand_less</span>  
+            </a>
+            <div class="sandbox-content">
+                <div class="sandbox-section-list-grid-container" id="game-design">
+                    <h3 class="sandbox-title">game design</h3>
+                    <div class="sandbox-section-list-grid-row">
+                        <div class="sandbox-section-item">
+                            <img class="sandbox-image" src="assets/project-images/sandbox/sandbox-iou-small.png" alt="Game Design: Project I.O.U." />
+                            <div class="sandbox-text">
+                                <h3 class="sandbox-title">infiltrate. occlude. undermine. (i.o.u.)</h3>
+                                <h4 class="sandbox-description">ux designer & graphic designer</h4>
+                                <div class="sandbox-button-wrap">
+                                    <a class="sandbox-button-text" href="iou.html">
+                                        <button class="sandbox-button">
+                                            view case study 🠒
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sandbox-section-item">
+                            <img class="sandbox-image" src="assets/project-images/sandbox/sandbox-dancingallnight-small.png" alt="Game Design: Project Dancing All Night" />
+                            <div class="sandbox-text">
+                                <h3 class="sandbox-title">dancing all night</h3>
+                                <h4 class="sandbox-description">ui design</h4>
+                                <div class="sandbox-button-wrap">
+                                    <button class="sandbox-button-disabled">
+                                        coming soon!
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sandbox-section-item">
+                            <img class="sandbox-image" src="assets/project-images/sandbox/sandbox-hopland-small.png" alt="Game Design: Project Hopland" />
+                            <div class="sandbox-text">
+                                <h3 class="sandbox-title">hopland</h3>
+                                <h4 class="sandbox-description">ui design</h4>
+                                <div class="sandbox-button-wrap">
+                                    <button class="sandbox-button-disabled">
+                                        coming soon!
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="sandbox-section-list-grid-container" id="graphic-design">
+                    <h3 class="sandbox-title">graphic design</h3>
+                    <div class="sandbox-section-list-grid-row">
+                        <div class="sandbox-section-item">
+                            <img class="sandbox-image" src="assets/project-images/sandbox/sandbox-designbuddles-socialmedia-small.png" alt="Graphic Design: Design Buddies Social Media" />
+                            <div class="sandbox-text">
+                                <h3 class="sandbox-title">design buddies: social media</h3>
+                                <h4 class="sandbox-description">social media & marketing design</h4>
+                                <div class="sandbox-button-wrap">
+                                    <a class="sandbox-button-text" href="designbuddies.html">
+                                        <button class="sandbox-button">
+                                            view case study 🠒
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sandbox-section-item">
+                            <img class="sandbox-image" src="assets/project-images/sandbox/sandbox-bau_cua_tom_ca-small.png" alt="Graphic Design: Bầu Cua Tôm Cá" />
+                            <div class="sandbox-text">
+                                <h3 class="sandbox-title">bầu cua tôm cá</h3>
+                                <h4 class="sandbox-description">graphic design</h4>
+                                <div class="sandbox-button-wrap">
+                                    <a class="sandbox-button-text" href="baucuatomca.html">
+                                        <button class="sandbox-button">
+                                            view case study 🠒
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sandbox-section-item">
+                            <img class="sandbox-image" src="assets/project-images/sandbox/sandbox-designbuddles-gamejam2-small.png" alt="Graphic Design: Design Buddies Game Jam" />
+                            <div class="sandbox-text">
+                                <h3 class="sandbox-title">design buddies: game jam</h3>
+                                <h4 class="sandbox-description">social media & marketing design</h4>
+                                <div class="sandbox-button-wrap">
+                                    <button class="sandbox-button-disabled">
+                                        coming soon!
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="sandbox-section-item">
-                    <img class="sandbox-image" src="assets/sandbox-gamedesign.png" alt="Game Design" />
-                    <h2 class="sandbox-title">game design</h2>
-                    <div class="sandbox-button-wrap">
-                        <button class="sandbox-button">view work 🠒</button>
+                <div class="sandbox-section-list-grid-container" id="illustration">
+                    <h3 class="sandbox-title">illustration</h3>
+                    <div class="sandbox-section-list-grid-row">
+                        <div class="sandbox-section-item">
+                            <img class="sandbox-image" src="assets/project-images/sandbox/sandbox-illustrationsmall.png" alt="Illustration 2019-2021" />
+                            <div class="sandbox-text">
+                                <h3 class="sandbox-title">2019-2021</h3>
+                                <div class="sandbox-button-wrap">
+                                    <button class="sandbox-button-disabled">
+                                        coming soon!
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sandbox-section-list-grid-container" id="photography">
+                    <h3 class="sandbox-title">photography</h3>
+                    <div class="sandbox-section-list-grid-row">
+                        <div class="sandbox-section-item">
+                            <img class="sandbox-image" src="assets/project-images/sandbox/sandbox-photography-small.png" alt="Photography" />
+                            <div class="sandbox-text">
+                                <h3 class="sandbox-title">china & south korea (2019)</h3>
+                                <div class="sandbox-button-wrap">
+                                    <button class="sandbox-button-disabled">
+                                        coming soon!
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
