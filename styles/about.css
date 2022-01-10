@@ -68,13 +68,17 @@ p {
   width: 80%;
 }
 
+.about-title {
+  margin-bottom: 2%;
+}
+
 .about-section-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: flex-start;
   width: 45%;
-  height: 80%;
+  height: 100%;
   margin-right: 5%;
 }
 
@@ -86,18 +90,201 @@ p {
   height: 60%;
 }
 
-#about-content {
-  margin-top: 2%;
+.about-content-description {
+  margin: 0.5% 0%;
 }
 
-.about-section-content--fun-facts {
+.about-content-description-embedded-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  color: #424242;
+  text-decoration-color: #424242;
+  text-decoration-line: underline;
+}
+
+.about-section--experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  margin: 5%;
+}
+
+.about-section--experience-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+  margin: 1.5% 0%;
+}
+
+.about-section--experience-section-title {
+  margin: 2% 0%;
+}
+
+.about-section--experience-section-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin: 1% 0%;
+}
+
+.about-section--experience-section-item-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.featured-project-button-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.featured-project-button {
+  width: 190px;
+  height: 40px;
+  font-family: "Poppins";
+  font-size: 12px;
+  text-transform: lowercase;
+  text-decoration: none;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #424242;
+  background-color: #fff;
+  border: none;
+  border-radius: 35px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 10% 0%;
+}
+
+.featured-project-button-disabled {
+  width: 190px;
+  height: 40px;
+  font-family: "Poppins";
+  font-size: 12px;
+  text-transform: lowercase;
+  text-decoration: none;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #909090;
+  background-color: #E0E0E0;
+  border: none;
+  border-radius: 35px;
+  transition: all 0.3s ease 0s;
+  outline: none;
+  margin: 10% 0%;
+}
+
+.featured-project-button:hover {
+  background-color: #57B8E8;
+  box-shadow: 0px 15px 20px rgba(87, 184, 232, 0.9);
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.about-section--fun-facts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin: 5%;
+}
+
+.about-section--fun-facts-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+  margin: 2.5% 0%;
+}
+
+.about-section--fun-facts-section-grid {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5%;
+  width: 100%;
+  margin: 2.5% 0%;
+}
+
+.about-section--fun-facts-section-grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+#fun-facts-image-with-captions {
+  max-width: 100%;
+  margin-bottom: 5%;
+}
+
+.about-section--fun-facts-section-grid-images {
+  /* display: grid;
+  grid-template-columns: repeat(3, 10em);
+  grid-gap: 5%;
+  width: 100%;
+  margin: 2.5% 0%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 2.5% 0%;
+}
+
+#fun-facts-image {
+  max-height: 29em;
+  /* justify-self: center; */
+}
+
+
+.about-section--lets-chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
   height: 30%;
-  margin-top: 4%;
+  margin: 5%;
 }
 
-.about-section-content--lets-chat {
-  height: 30%;
-  margin-top: 4%;
+.about-content-icon-with-description-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
 }
 
-
+.about-section--lets-chat-icons {
+  height: 30px;
+  width: 30px;
+  font: 20px;
+  margin: 0.5% 0.5% 0.5% 0%;
+}
