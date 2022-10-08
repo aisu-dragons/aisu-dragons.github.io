@@ -199,6 +199,18 @@ ul {
   margin: 2.5% 0%;
 }
 
+.designbuddies-content-description-image-caption {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  color: #808080;
+  text-align: center;
+  width: 100%;
+}
+
 .designbuddies-content-description-subtitle {
   margin: 2% 0%;
 }
