@@ -18,7 +18,8 @@
 
 /* nav bar logo size */
 .nav-button-home-icon {
-  width: 3em;
+  padding-left: 250%;
+  width: 10em;
   height: 3em;
 }
 
