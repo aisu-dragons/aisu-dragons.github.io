@@ -14,11 +14,13 @@
   height: 50%;
   width: 3%;
   margin: 0% 5%;
+  padding-left: 6%;
 }
 
 /* nav bar logo size */
 .nav-button-home-icon {
   /* padding-left: 8em; */
+  padding-left:50%;
   width: 3em;
   height: 3em;
 }
