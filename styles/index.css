@@ -183,7 +183,7 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 70%;
+  width: 350px;
 }
 
 .featured-project-button-wrap {
