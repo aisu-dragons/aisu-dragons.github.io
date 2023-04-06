@@ -207,8 +207,8 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 90%;
-  margin: 5%;
+  width: 100%;
+  /* margin: 5%; */
 }
 
 .about-section--fun-facts-section {
