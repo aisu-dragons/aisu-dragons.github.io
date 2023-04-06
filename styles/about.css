@@ -149,7 +149,7 @@ p {
 
 .featured-project-button-wrap {
   display: flex;
-  align-items: left;
+  /* align-items: left; */
   justify-content: left;
   width: 100%;
   height: 100%;
