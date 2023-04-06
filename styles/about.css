@@ -168,7 +168,7 @@ p {
   background-color: #fff;
   border: none;
   border-radius: 35px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.09);
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
@@ -195,7 +195,7 @@ p {
 
 .featured-project-button:hover {
   background-color: #57B8E8;
-  box-shadow: 0px 15px 20px rgba(87, 184, 232, 0.9);
+  box-shadow: 0px 8px 16px rgba(87, 184, 232, 0.215);
   font-weight: bold;
   text-decoration: none;
   color: #fff;
