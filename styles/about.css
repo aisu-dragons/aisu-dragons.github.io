@@ -280,7 +280,7 @@ p {
   align-items: flex-start;
   width: 90%;
   height: 30%;
-  margin: 5%;
+  /* margin: 5%; */
 }
 
 .about-content-icon-with-description-container {
