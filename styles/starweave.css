@@ -387,5 +387,9 @@ ul {
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  margin: 15% 0%;
+  margin: 2% 0%;
+}
+
+.starweave-content-description-images-element {
+  width: 49%;
 }
